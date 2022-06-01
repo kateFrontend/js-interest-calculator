@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interest Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="input-wrapper">
+            <div class="wrapper">
+                <label for="principal">Principal ($):</label>
+                <input type="number" id="principal">
+            </div>
+            <div class="wrapper">
+                <label for="rate">Rate:</label>
+                <input type="number" id="rate">
+            </div>
+        </div>
+        <label for="time">Time:</label>
+        <div class="time-wrapper">
+            <input type="number" id="time">
+            <select name="duration" id="duration">
+                <option value="year">Year</option>
+                <option value="month">Month</option>
+            </select>
+        </div>
+        <div class="buttons">
+            <button id="calculate-btn">Calculate</button>
+            <button id="reset-btn">Reset</button>
+        </div>
+        <div id="result">
+            <div id="amountPrincipal">
+                <p>Principal Amount: <span>$</span><span id="principalAmount"></span></p>
+            </div>
+            <div id="interestTotal">
+                <p>Total Interest: <span>$</span><span id="totalInterest"></span></p>
+            </div>
+            <div id="amountTotal">
+                <p>Total Amount: <span>$</span><span id="totalAmount"></span></p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
