@@ -1,6 +1,6 @@
 <div>
-  <h1>Interest-Calculator</h1> 
-  <img src="05!!!.JPG" alt="" width="auto">
+  <h1>Interest Calculator</h1> 
+  <img src="10!!!!.JPG" alt="" width="auto">
 </div>
 
 <!-- ABOUT THE PROJECT -->
