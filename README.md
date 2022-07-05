@@ -9,7 +9,7 @@
 <p></p>
 
   <p>
- <a href="https://meditation-appli.glitch.me/">View Demo Here</a>
+ <a href="https://calculator-interest.glitch.me/">View Demo Here</a>
   </p>
 
 ## Built With
