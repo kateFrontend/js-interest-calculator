@@ -5,8 +5,9 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-<p>Simple Interest Calculator using HTML, CSS & JavaScript</p>
-<p></p>
+<p>Simple Interest Calculator using HTML, CSS & JavaScript.</p>
+<p>Interest Calculator can help determine the interest payments and final balances. The user has an option to select time either in years or in months.</p>
+<p>The project consists of three input fields. These input fields enter the principal amount, the rate of interest and the time. The user need to click the calculate button and it will display a series of calculations. These calculations include the principal amount, the total interest and the total amount to be paid.</p>
 
   <p>
  <a href="https://calculator-interest.glitch.me/">View Demo Here</a>
